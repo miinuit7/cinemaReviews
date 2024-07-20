@@ -6,9 +6,12 @@ export default defineConfig({
         laravel({
             input: [
                 'resources/js/app.js',
-                'resources/css/app.css', // ここを修正
+                'resources/css/app.css', 
             ],
             refresh: true,
         }),
     ],
+    server: {
+        port: 3000, 
+    },
 });
