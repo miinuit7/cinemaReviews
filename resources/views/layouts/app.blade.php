@@ -6,9 +6,10 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>シネマレビューズ</title>
 
         <!-- Fonts -->
+        <link rel="icon" href="{{ asset('cinemaFavicon.ico') }}" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
